@@ -1,0 +1,281 @@
+[
+    {
+        "Id": 1,
+        "Name": "The Trapper",
+        "Perks": ["Unnerving Presence", "Brutal Strength", "Agitation"],
+        "Addons": ["Bear Oil", "Makeshift Wrap", "Padded Jaws", "Trapper Gloves", "4-Coil Spring Kit", "Coffee Grounds", "Lengthened Jaws", "Serrated Jaws", "Wax Brick", "Fastening Tools", "Rusted Jaws", "Secondary Coil", "Tar Bottle", "Trapper Bag", "Honing Stone", "Oily Coil", "Tension Spring", "Trapper Sack", "Bloody Coil", "Iridescent Stone"]        
+    },
+
+    {
+        "Id": 2,
+        "Name": "The Wraith",
+        "Perks": ["Predator", "Bloodhound", "Shadowborn"],
+        "Addons": [ "The Beast - Soot", "The Ghost - Soot", "The Hound - Soot", "The Serpent - Soot", "Blind Warrior - Mud", "Blink - Mud", "Swift Hunt - Mud", "Windstorm - Mud", "Bone Clapper", "Blind Warrior - White", "Blink - White", "Shadow Dance - White", "Swift Hunt - White", "Windstorm - White", "All Seeing - Blood", "Shadow Dance - Blood", 
+                    "Swift Hunt - Blood", "Windstorm - Blood", "All Seeing - Spirit", "Coxcombed Clapper"]
+    },
+    
+    {
+        "Id": 3,
+        "Name": "The Hillbilly",
+        "Perks": ["Enduring", "Lightborn", "Tinkerer"],
+        "Addons": [ "Counterweight", "Cracked Primer Bulb", "Dad's Boots", "Steel Toe Boots", "Clogged Intake", "Greased Throttle", "Off-Brand Motor Oil", "Spiked Boots", "Thermal Casing", "Begrimed Chains", "Discarded Air Filter", "Low Kickback Chains", "Ragged Engine", "The Thompsons' Mix", "Apex Muffler", "Filthy Slippers", "High-Speed Idler Screw", 
+                    "LoPro Chains", "Iridescent Engravings", "Tuned Carburettor"]
+    },
+    
+    {
+        "Id": 4,
+        "Name": "The Nurse",
+        "Perks": ["Stridor", "Thanatophobia", "A Nurse's Calling"],
+        "Addons": [ "Metal Spoon", "Plaid Flannel", "White Nit Comb", "Wooden Horse", "Bad Man Keepsake", "Catatonic Boy's Treasure", "Dark Cincture", "Dull Bracelet", "Pocket Watch", "Anxious Gasp", "Ataxic Respiration", "Fragile Wheeze", "Heavy Panting", "Spasmodic Breath", "Bad Man's Last Breath", "Campbell's Last Breath", "Jenner's Last Breath", 
+                    "Kavanagh's Last Breath", "Matchbox", "Torn Bookmark"]
+    },
+    
+    {
+        "Id": 5,
+        "Name": "The Shape",
+        "Perks": ["Save the Best for Last", "Play with Your Food", "Dying Light"],
+        "Addons": [ "Blond Hair", "Boyfriend's Memo", "Memorial Flower", "Tacky Earrings", "Dead Rabbit", "Glass Fragment", "Hair Brush", "Jewellery", "Reflective Fragment", "Hair Bow", "J. Myers Memorial", "Jewellery Box", "Judith's Journal", "Mirror Shard", "Lock of Hair", "Scratched Mirror", "Tombstone Piece", "Vanity Mirror", 
+                    "Fragrant Tuft of Hair", "Judith's Tombstone"]
+    },
+    
+    {
+        "Id": 6,
+        "Name": "The Hag",
+        "Perks": ["Hex: The Third Seal", "Hex: Ruin", "Hex: Devour Hope"],
+        "Addons": [ "Bog Water", "Dead Fly Mud", "Powdered Eggshell", "Rope Necklet", "Bloodied Water", "Cypress Necklet", "Dragonfly Wings", "Half Eggshell", "Pussy Willow Catkins", "Bloodied Mud", "Cracked Turtle Egg", "Dried Cicada", "Swamp Orchid Necklet", "Willow Wreath", "Disfigured Ear", "Grandma's Heart", "Rusty Shackles", 
+                    "Scarred Hand", "Mint Rag", "Waterlogged Shoe"]  
+    },
+    
+    {
+        "Id": 7,
+        "Name": "The Doctor",
+        "Perks": ["Overwhelming Presence", "Monitor & Abuse", "Overcharge"],
+        "Addons": [ "Calm - Class I", "Order - Class I", "Maple Knight", "Mouldy Electrode", "Calm - Class II", "Discipline - Class II", "Order - Class II", "Restraint - Class II", "Polished Electrode", "Discipline - Class III", "Restraint - Class III", "High Stimulus Electrode", "Interview Tape", "Scrapped Tape", "Calm - Carter's Notes", 
+                    "Discipline - Carter's Notes", "Order - Carter's Notes", "Restraint - Carter's Notes", "Iridescent King", "Iridescent Queen"]
+    },
+    
+    {
+        "Id": 8,
+        "Name": "The Huntress",
+        "Perks": ["Beast of Prey", "Territorial Imperative", "Hex: Huntress Lullaby"],
+        "Addons": [ "Amanita Toxin", "Bandaged Haft", "Coarse Stone", "Yellowed Cloth", "Leather Loop", "Manna Grass Braid", "Oak Haft", "Shiny Pin", "Weighted Head", "Deerskin Gloves", "Flower Babushka", "Rose Root", "Rusty Head", "Venomous Concoction", "Begrimed Head", "Glowing Concoction", "Infantry Belt", "Wooden Fox", "Iridescent Head", 
+                    "Soldier's Puttee"]
+    },
+    
+    {
+        "Id": 9,
+        "Name": "The Cannibal",
+        "Perks": ["Knock Out", "Barbecue & Chilli", "Franklin's Demise"],
+        "Addons": [ "Chainsaw File", "Spark Plug", "Speed Limiter", "Vegetable Oil", "Chilli", "Homemade Muffler", "Knife Scratches", "Long Guide Bar", "Primer Bulb", "Begrimed Chains", "Grisly Chains", "Shop Lubricant", "The Beast's Marks", "The Grease", "Award-winning Chilli", "Depth Gauge Rake", "Light Chassis", "Rusted Chains", 
+                    "Carburettor Tuning Guide", "Iridescent Flesh"]
+    },
+    
+    {
+        "Id": 10,
+        "Name": "The Nightmare",
+        "Perks": ["Fire Up", "Remember Me", "Blood Warden"],
+        "Addons": ["Garden Rake", "Kid's Drawing", "Sheep Block", "Wool Shirt", "Cat Block", "Green Dress", "Nancy's Sketch", "Outdoor Rope", "Prototype Claws", "Blue Dress", "Jump Rope", "Nancy's Masterpiece", "Paint Thinner", "Unicorn Block", "Z Block", "Class Photo", "Pill Bottle", "Swing Chains", "Black Box", "Red Paint Brush"]
+    },
+    
+    {
+        "Id": 11,
+        "Name": "The Pig",
+        "Perks": ["Scourge Hook: Hangman's Trick", "Surveillance", "Make Your Choice"],
+        "Addons": [ "Combat Straps", "Interlocking Razor", "John's Medical File", "Shattered Syringe", "Face Mask", "Last Will", "Razor Wires", "Utility Blades", "Workshop Grease", "Bag of Gears", "Jigsaw's Annotated Plan", "Rules Set No.2", "Rusty Attachments", "Slow-Release Toxin", "Amanda's Secret", "Crate of Gears", "Jigsaw's Sketch", 
+                    "Tampered Timer", "Amanda's Letter", "Video Tape"]
+    },
+    
+    {
+        "Id": 12,
+        "Name": "The Clown",
+        "Perks": ["Bamboozle", "Coulrophobia", "Pop Goes the Weasel"],
+        "Addons": [ "Fingerless Parade Gloves", "Party Bottle", "Robin Feather", "VHS Porn", "Kerosene Can", "Solvent Jug", "Starling Feather", "Sticky Soda Bottle", "Thick Cork Stopper", "Bottle of Chloroform", "Flask of Bleach", "Smelly Inner Soles", "Spirit of Hartshorn", "Sulphuric Acid Vial", "Cheap Gin Bottle", "Cigar Box", "Ether 15 Vol%",
+                    "Garish Make-Up Kit", "Redhead's Pinkie Finger", "Tattoo's Middle Finger"]  
+    },
+    
+    {
+        "Id": 13,
+        "Name": "The Spirit",
+        "Perks": ["Spirit Fury", "Hex: Haunted Ground", "Rancor"],
+        "Addons": [ "Gifted Bamboo Comb", "Origami Crane", "Shiawase Amulet", "Zōri", "Juniper Bonsai", "Kaiun Talisman", "Muddy Sports Day Cap", "Rin's Broken Watch", "White Hair Ribbon", "Katana Tsuba", "Mother's Glasses", "Rusty Flute", "Senko Hanabi", "Uchiwa", "Dried Cherry Blossom", "Furin", "Wakizashi Saya", "Yakuyoke Amulet",
+                    "Kintsugi Teacup", "Mother-Daughter Ring"]  
+    },
+    
+    {
+        "Id": 14,
+        "Name": "The Legion",
+        "Perks": ["Discordance", "Mad Grit", "Iron Maiden"],
+        "Addons": [ "Friendship Bracelet", "Mischief List", "Scratched Ruler", "Smiley Face Pin", "Defaced Smiley Pin", "Etched Ruler", "Julie's Mix Tape", "Mural Sketch", "Never-Sleep Pills", "Joey's Mix Tape", "Stolen Sketch Book", "Stylish Sunglasses", "Susie's Mix Tape", "The Legion Pin", "BFFs", "Filthy Blade", "Frank's Mix Tape",
+                    "Stab Wounds Study", "Fuming Mix Tape", "Iridescent Button"]  
+    },
+    
+    {
+        "Id": 15,
+        "Name": "The Plague",
+        "Perks": ["Corrupt Intervention", "Infectious Fright", "Dark Devotion"],
+        "Addons": [ "Healing Salve", "Limestone Seal", "Olibanum Incense", "Prayer Tablet Fragment", "Blessed Apple", "Emetic Potion", "Haematite Seal", "Potent Tincture", "Prophylactic Amulet", "Ashen Apple", "Exorcism Amulet", "Incensed Ointment", "Infected Emetic", "Rubbing Oil", "Devotee's Amulet", "Severed Toe", "Vile Emetic", 
+                    "Worship Tablet", "Black Incense", "Iridescent Seal"]  
+    },
+    
+    {
+        "Id": 16,
+        "Name": "The Ghost Face",
+        "Perks": ["I'm All Ears", "Thrilling Tremors", "Furtive Chase"],
+        "Addons": [ "Philly", "Cheap Cologne", "Headline Cut-Outs", "Walleye's Matchbook", "Cinch Straps", "Marked Map", "Olsen's Address Book", "Olsen's Journal", "Telephoto Lens", "Chewed Pen", "Knife Belt Clip", "Lasting Perfume", "Leather Knife Sheath", "Olsen's Wallet", "Driver's License", "Drop-Leg Knife Sheath", "Night Vision Monocular",
+                    "Victim's Detailed Routine", "Ghost Face Caught on Tape", "Outdoor Security Camera"]
+    },
+    
+    {
+        "Id": 17,
+        "Name": "The Demogorgon",
+        "Perks": ["Surge", "Mindbreaker", "Cruel Limits"],
+        "Addons": ["Black Heart", "Rat Liver", "Rat Tail", "Rotten Pumpkin", "Barb's Glasses", "Mews' Guts", "Rotten Green Tripe", "Sticky Lining", "Viscous Webbing", "Brass Case Lighter", "Deer Lung", "Eleven's Soda", "Thorny Vines", "Violet Waxcap", "Lifeguard Whistle", "Unknown Egg", "Upside Down Resin", "Vermilion Webcap", "Leprose Lichen", "Red Moss"]  
+    },
+    
+    {
+        "Id": 18,
+        "Name": "The Oni",
+        "Perks": ["Zanshin Tactics", "Blood Echo", "Nemesis"],
+        "Addons": [ "Rotting Rope", "Paper Lantern", "Cracked Sakazuki", "Blackened Toenail", "Polished Maedate", "Ink Lion", "Chipped Saihai", "Child's Wooden Sword", "Bloody Sash", "Yamaoka Sashimono", "Wooden Oni Mask", "Shattered Wakizashi", "Scalped Topknot", "Kanai-Anzen Talisman", "Tear Soaked Tenugui", "Splintered Hull", "Lion Fang",
+                    "Akito's Crutch", "Renjiro's Bloody Glove", "Iridescent Family Crest"]  
+    },
+    
+    {
+        "Id": 19,
+        "Name": "The Deathslinger",
+        "Perks": ["Gearhead", "Dead Man's Switch", "Hex: Retribution"],
+        "Addons": [ "Spit Polish Rag", "Snake Oil", "Rickety Chain", "Modified Ammo Belt", "Rusted Spike", "Poison Oak Leaves", "Marshal's Badge", "Jaw Smasher", "Chewing Tobacco", "Warden's Keys", "Wanted Poster", "Tin Oil Can", "Honey Locust Thorn", "Bayshore's Gold Tooth", "Prison Chain", "Gold Creek Whiskey", "Bayshore's Cigar", "Barbed Wire",
+                    "Iridescent Coin", "Hellshire Iron"]
+    },
+    
+    {
+        "Id": 20,
+        "Name": "The Executioner",
+        "Perks": ["Forced Penance", "Trail of Torment", "Deathbound"],
+        "Addons": [ "Lead Ring", "Dead Butterfly", "Copper Ring", "Black Strap", "Wax Doll", "Spearhead", "Leopard-Print Fabric", "Forgotten Videotape", "Cinderella Music Box", "Valtiel Sect Photograph", "Tablet of the Oppressor", "Misty Day, Remains of Judgement", "Mannequin Foot", "Burning Man Painting", "Scarlet Egg", "Rust-Coloured Egg",
+                    "Lost Memories Book", "Crimson Ceremony Book", "Obsidian Goblet", "Iridescent Seal of Metatron"]  
+    },
+    
+    {
+        "Id": 21,
+        "Name": "The Blight",
+        "Perks": ["Dragon's Grip", "Hex: Blood Favour", "Hex: Undying"],
+        "Addons": [ "Placebo Tablet", "Foxglove", "Compound Seven", "Chipped Monocle", "Shredded Notes", "Pustula Dust", "Plague Bile", "Canker Thorn", "Blighted Rat", "Umbra Salts", "Rose Tonic", "Compound Twenty-One", "Blighted Crow", "Adrenaline Vial", "Vigo's Journal", "Summoning Stone", "Soul Chemical", "Alchemist's Ring",
+                    "Iridescent Blight Tag", "Compound Thirty-Three"] 
+    },
+    
+    {
+        "Id": 22,
+        "Name": "The Twins",
+        "Perks": ["Hoarder", "Oppression", "Coup de Grâce"],
+        "Addons": [ "Toy Sword", "Tiny Fingernail", "Soured Milk", "Cat Figurine", "Madeleine's Glove", "Ceremonial Candelabrum", "Cat's Eye", "Bloody Black Hood", "Baby Teeth", "Weighty Rattle", "Stale Biscuit", "Sewer Sludge", "Rusted Needle", "Madeleine's Scarf", "Victor's Soldier", "Spinning Top", "Forest Stew", "Drop of Perfume",
+                    "Silencing Cloth", "Iridescent Pendant"]  
+    },
+    
+    {
+        "Id": 23,
+        "Name": "The Trickster",
+        "Perks": ["Starstruck", "Hex: Crowd Control", "No Way Out"],
+        "Addons": [ "Inferno Wires", "Killing Part Chords", "Memento Blades", "Trick Pouch", "Caged Heart Shoes", "Ji-Woon's Autograph", "Lucky Blade", "On Target Single", "Tequila Moonrock", "Bloody Boa", "Fizz-Spin Soda", "Melodious Murder", "Ripper Brace", "Waiting For You Watch", "Cut Thru U Single", "Diamond Cufflinks",
+                    "Edge of Revival Album", "Trick Blades", "Death Throes Compilation", "Iridescent Photocard"]  
+    },
+    
+    {
+        "Id": 24,
+        "Name": "The Nemesis",
+        "Perks": ["Lethal Pursuer", "Hysteria", "Eruption"],
+        "Addons": [ "Brian's Intestine", "Damaged Syringe", "S.T.A.R.S. Field Combat Manual", "Visitor Wristband", "Admin Wristband", "Adrenaline Injector", "Marvin's Blood", "Mikhail's Eye", "Zombie Heart", "Licker Tongue", "Plant 43 Vines", "Serotonin Injector", "T-Virus Sample", "Tyrant Gore", "Broken Recovery Coin",
+                    "Depleted Ink Ribbon", "Jill's Sandwich", "Ne-α Parasite", "Iridescent Umbrella Badge", "Shattered S.T.A.R.S. Badge"]  
+    },
+    
+    {
+        "Id": 25,
+        "Name": "The Cenobite",
+        "Perks": ["Deadlock", "Hex: Plaything", "Scourge Hook: Gift of Pain"],
+        "Addons": [ "Leather Strip", "Lively Crickets", "Burning Candle", "Bent Nail", "Wriggling Maggots", "Spoiled Meal", "Skewered Rat", "Liquified Gore", "Flickering Television", "Torture Pillar", "Slice of Frank", "Larry's Remains", "Larry's Blood", "Frank's Heart", "Original Pain", "Impaling Wire", "Greasy Black Lens",
+                    "Chatterer's Tooth", "Iridescent Lament Configuration", "Engineer's Fang"]  
+    },
+    
+    {
+        "Id": 26,
+        "Name": "The Artist",
+        "Perks": ["Grim Embrace", "Scourge Hook: Pain Resonance", "Hex: Pentimento"],
+        "Addons": [ "Vibrant Obituary", "Thick Tar", "Oil Paints", "Choclo Corn", "Velvet Fabric", "Untitled Agony", "Still Life Crow", "Festering Carrion", "Automatic Drawing", "Thorny Nest", "Silver Bell", "O Grief, O Lover", "Darkest Ink", "Charcoal Stick", "Severed Tongue", "Severed Hands", "Matias' Baby Shoes", "Ink Egg",
+                    "Iridescent Feather", "Garden of Rot"] 
+    },
+    
+    {
+        "Id": 27,
+        "Name": "The Onryō",
+        "Perks": ["Scourge Hook: Floods of Rage", "Call of Brine", "Merciless Storm"],
+        "Addons": [ "Videotape Copy", "Old Newspaper", "Mother's Mirror", "Cabin Sign", "Yoichi's Fishing Net", "Well Stone", "Sea-Soaked Cloth", "Reiko's Watch", "Clump of Hair", "Well Water", "Ring Drawing", "Rickety Pinwheel", "Mother's Comb", "Bloody Fingernails", "VCR", "Telephone", "Tape Editing Deck", "Distorted Photo", 
+                    "Remote Control", "Iridescent Videotape"]  
+    },
+    
+    {
+        "Id": 28,
+        "Name": "The Dredge",
+        "Perks": ["Dissolution", "Darkness Revealed", "Septic Touch"],
+        "Addons": [ "Wooden Plank", "Mortar and Pestle", "Follower's Cowl", "Caffeine Tablets", "Malthinker's Skull", "Haddie's Calendar", "Fallen Shingle", "Burnt Letters", "Air Freshener", "Worry Stone", "War Helmet", "Ottomarian Writing", "Destroyed Pillow", "Broken Doll", "Tilling Blade", "Lavalier Microphone", "Field Recorder", 
+                    "Boat Key", "Sacrificial Knife", "Iridescent Wooden Plank"]  
+    },
+    
+    {
+        "Id": 29,
+        "Name": "The Mastermind",
+        "Perks": ["Superior Anatomy", "Awakened Awareness", "Terminus"],
+        "Addons": [ "Jewel Beetle", "Unicorn Medallion", "R.P.D. Shoulder Walkie", "Uroboros Tendril", "Loose Crank", "Leather Gloves", "Lion Medallion", "Chalice (Gold)", "Bullhorn", "Portable Safe", "Red Herb", "Maiden Medallion", "Video Conference Device", "Egg (Gold)", "Dark Sunglasses", "Green Herb", "Helicopter Stick", "Uroboros Virus",
+                    "Lab Photo", "Iridescent Uroboros Vial"]  
+    },
+    {
+        "Id": 30,
+        "Name": "The Knight",
+        "Perks": ["Nowhere to Hide", "Hex: Face the Darkness", "Hubris"],
+        "Addons": [ "Gritty Lump", "Map of the Realm", "Pillaged Mead", "Tattered Tabard", "Battle Axe Head", "Call to Arms", "Cold Steel Manacles", "Dried Horsemeat", "Treated Blade", "Broken Hilt", "Chain Mail Fragment", "Grim Iron Mask", "Ironworker's Tongs", "Town Watch's Torch", "Blacksmith's Hammer", "Flint and Steel", "Healing Poultice",
+                    "Lightweight Greaves", "Iridescent Company Banner", "Knight's Contract"]  
+    },
+    
+    {
+        "Id": 31,
+        "Name": "The Skull Merchant",
+        "Perks": ["THWACK!", "Leverage", "Game Afoot"],
+        "Addons": [ "Ultrasonic Speaker", "High-Power Floodlight", "High-Current Upgrade", "Adi Valente Issue 1", "Stereo Remote Mic", "Shotgun Speakers", "Supercharge", "Low-Power Mode", "Adaptive Lighting", "Vital Targeting Processor", "Powdered Glass", "Loose Screw", "Infrared Upgrade", "Brown Noise Generator", "Randomised Strobes",
+                    "Geographical Readout", "Prototype Rotor", "Advanced Movement Prediction", "Expired Batteries", "Iridescent Unpublished Manuscript"]  
+    },
+    
+    {
+        "Id": 32,
+        "Name": "The Singularity",
+        "Perks": ["Genetic Limits", "Forced Hesitation", "Machine Learning"],
+        "Addons": [ "Nutritional Slurry", "Kid's Ball Glove", "Heavy Water", "Broken Security Key", "Ultrasonic Sensor", "Diagnostic Tool (Repair)", "Cryo Gel", "Cremated Remains", "Android Arm", "Spent Oxygen Tank", "Nanomachine Gel", "Live Wires", "Hyperawareness Spray", "Hologram Generator", "Soma Family Photo", "Foreign Plant Fibres",
+                    "Diagnostic Tool (Construction)", "Crew Manifest", "Iridescent Crystal Shard", "Denied Requisition Form"]  
+    },
+    
+    {
+        "Id": 33,
+        "Name": "The Xenomorph",
+        "Perks": ["Rapid Brutality", "Alien Instinct", "Ultimate Weapon"],
+        "Addons": [ "Cereal Rations", "Drinking Bird", "Ovomorph", "Ripley's Watch", "Ash's Innards", "Brett's Cap", "Crew Headset", "Lambert's Star Map", "Light Wand", "Emergency Helmet", "Kane's Helmet", "Moulted Skin", "Multipurpose Hatchet", "Parker's Headband", "Cat Carrier", "Harpoon Gun", "Self-Destruct Bolt", "Semiotic Keyboard",
+                    "Acidic Blood", "Improvised Cattle Prod"]  
+    },
+    
+    {
+        "Id": 34,
+        "Name": "The Good Guy",
+        "Perks": [  "Hex: Two Can Play", "Friends 'til the End", "Batteries Included"],
+        "Addons": [ "Doll Eyes", "Good Guy Box", "Strobing Light", "Tiny Scalpel", "Automatic Screwdriver", "Electric Carving Knife", "Hair Spray & Candle", "Jump Rope", "Power Drill", "Portable TV", "Rat Poison", "Running Shoes", "Silk Pillow", "Yardstick", "Mirror Shards", "Pile of Nails", "Plastic Bag", "Straight Razor", "Hard Hat", "Iridescent Amulet"]  
+    },
+
+    {
+        "Id": 35,
+        "Name": "The Unknown",
+        "Perks":["Unbound", "Undone", "Unforeseen"],
+        "Addons": [ "Blurry Photo", "Punctured Eyeball", "Rabbit's Foot", "Sketch Attempt", "Device of Undisclosed Origin", "Last Known Recording", "Notebook of Theories", "Slashed Backpack", "Victim's Map", "B-Movie Poster", "Footprint Cast", "Front-Page Article", "Hypnotist's Watch", "Vanishing Box", "Discarded Milk Carton", "Homemade Mask",
+                    "Obscure Game Cartridge", "Serum Vial", "Captured by the Dark", "Iridescent OSS Report"]
+    },
+
+    {
+        "Name": "Common Perks",
+        "Perks": ["Bitter Murmur", "Deerstalker", "Distressing", "Hex: No One Escapes Death", "Hex: Thrill of the Hunt", "Insidious", "Iron Grasp", "Scourge Hook: Monstrous Shrine", "Shattered Hope", "Sloppy Butcher", "Spies from the Shadows", "Unrelenting", "Whispers"]
+    }
+]
