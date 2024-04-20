@@ -1,0 +1,132 @@
+html,
+body {
+    background-image: url('images/BuildBuilderBackground.jpg');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+nav {
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+li {
+    list-style-type: none;
+    display: flex;
+    float: left;
+    margin-right: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: x-large;
+    font-weight: bolder;
+}
+
+#killer-information {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: minmax(500px, auto);
+    grid-template-rows: minmax(150px, auto);
+    gap: 10px;
+}
+
+#killer-name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-column: 1 / 4;
+    grid-row: 1;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: xx-large;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 5px solid gray;
+}
+
+#killer-photo-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-column: 1;
+    grid-row: 2 / 4;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 5px solid gray;
+}
+
+#killer-photo {
+    width: 70%;
+    height: auto;
+}
+
+
+#killer-power-addons {
+    display: flex;
+    justify-content: center;
+    grid-column: 2;
+    grid-row: 2;
+    grid-template-columns: 4;
+    grid-row: 2;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 5px solid gray;
+    gap: 20px;
+}
+
+#power-image-cell {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-column: 1;
+}
+
+#power-image {
+    grid-column: 1;
+    width: 70%;
+    height: auto;
+}
+
+#plus {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-column: 2;
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.addon-photo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.addon-name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-row: 2;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#killer-perks {
+    display: flex;
+    grid-column: 2 / 3;
+    grid-row: 3;
+    grid-template-columns: 4;
+    grid-template-rows: 2;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 5px solid gray;
+    gap: 15px;
+}
+
+.perk {
+    grid-row: 1;
+    margin: 20px;
+}
+
+.perk-name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-row: 2;
+    font-family: 'Courier New', Courier, monospace;
+}
