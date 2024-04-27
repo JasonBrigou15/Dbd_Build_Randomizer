@@ -24,13 +24,25 @@ function pickRandomKiller() {
 
         if (randomKiller === "Common Perks") {
             killerList[randomIndex];
-        }       
+        }
 
         console.log(randomKiller);
 
         const killerPhoto = document.getElementById("killer-photo-block");
+        const killerPowerPhoto = document.getElementById("power-image-cell");
 
-        killerPhoto.innerHTML = 
-        `<img id="killer-photo" src="images/Portraits/${randomKiller}.webp">`
+        killerPhoto.innerHTML =
+            `<img id="killer-photo" src="images/Portraits/${randomKiller.Name}.webp">`
+
+        if (randomKiller.Name !== "The Good Guy" || randomKiller.Name !== "The Knight" || randomKiller.Name !== "The Nemesis"
+            || randomKiller.Name !== "The Twins" || randomKiller.Name !== "The Xenomorph") {
+                
+            killerPowerPhoto.innerHTML =
+                `<img id="power-image" src="images/PowerImages/${randomKiller.Name}_power.webp alt="photo of the ${randomKiller.Name}'s power">`
+        }
+        else {
+            killerPowerPhoto.innerHTML =
+                `<img id="power-image" src="images/PowerImages/${randomKiller.Name}_power.gif alt="photo of the ${randomKiller.Name}'s power">`
+        }
     });
 }
