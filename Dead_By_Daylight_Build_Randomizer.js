@@ -1,5 +1,7 @@
 document.getElementById("killer-randomize-btn").onclick = function () {
-    pickRandomKiller();
+    pickRandomKiller().then(randomKiller => {
+        pickRandomKillerAddons(randomKiller);
+    });
 }
 
 
@@ -18,13 +20,9 @@ function ReadJsonFile() {
 
 
 function pickRandomKiller() {
-    ReadJsonFile().then(killerList => {
+     return ReadJsonFile().then(killerList => {
         let randomIndex = Math.floor(Math.random() * (killerList.length - 1))
         let randomKiller = killerList[randomIndex];
-
-        if (randomKiller === "Common Perks") {
-            killerList[randomIndex];
-        }
 
         console.log(randomKiller);
 
@@ -34,15 +32,21 @@ function pickRandomKiller() {
         killerPhoto.innerHTML =
             `<img id="killer-photo" src="images/Portraits/${randomKiller.Name}.webp">`
 
-        if (randomKiller.Name !== "The Good Guy" || randomKiller.Name !== "The Knight" || randomKiller.Name !== "The Nemesis"
-            || randomKiller.Name !== "The Twins" || randomKiller.Name !== "The Xenomorph") {
-                
+        if (randomKiller.Name !== "The Good Guy" && randomKiller.Name !== "The Knight" && randomKiller.Name !== "The Nemesis"
+            && randomKiller.Name !== "The Twins" && randomKiller.Name !== "The Xenomorph") {
+
             killerPowerPhoto.innerHTML =
-                `<img id="power-image" src="images/PowerImages/${randomKiller.Name}_power.webp alt="photo of the ${randomKiller.Name}'s power">`
+                `<img id="power-image" src="images/PowerImages/${randomKiller.Name}_power.webp" alt="photo of the ${randomKiller.Name}'s power">`
         }
         else {
             killerPowerPhoto.innerHTML =
-                `<img id="power-image" src="images/PowerImages/${randomKiller.Name}_power.gif alt="photo of the ${randomKiller.Name}'s power">`
+                `<img id="power-image" src="images/PowerImages/${randomKiller.Name}_power.gif" alt="photo of the ${randomKiller.Name}'s power">`
         }
+
+        return randomKiller;
     });
+}
+
+function pickRandomKillerAddons(randomKiller) {
+    console.log(randomKiller);
 }
