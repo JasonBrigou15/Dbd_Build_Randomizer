@@ -4,6 +4,16 @@ document.getElementById("killer-randomize-btn").onclick = function () {
     });
 }
 
+document.getElementById("addon-randomize-btn").onclick = function () {
+    pickRandomKiller().then(randomKiller => {
+        pickRandomKillerAddons(randomKiller);
+    });
+}
+
+document.getElementById("perks-randomize-btn").onclick = function () {
+    pickRandomPerks();
+}
+
 
 function ReadJsonFile() {
     return fetch("DbdKillers.json")
@@ -20,7 +30,7 @@ function ReadJsonFile() {
 
 
 function pickRandomKiller() {
-     return ReadJsonFile().then(killerList => {
+    return ReadJsonFile().then(killerList => {
         let randomIndex = Math.floor(Math.random() * (killerList.length - 1))
         let randomKiller = killerList[randomIndex];
 
@@ -48,5 +58,39 @@ function pickRandomKiller() {
 }
 
 function pickRandomKillerAddons(randomKiller) {
-    console.log(randomKiller);
+    let randomAddons = [];
+
+    while (randomAddons.length < 2) {
+        let randomIndex = Math.floor(Math.random() * randomKiller.Addons.length);
+        if (!randomAddons.includes(randomIndex)) {
+            randomAddons.push(randomIndex);
+        }
+    }
+
+    let firstAddon = randomKiller.Addons[randomAddons[0]];
+    let secondAddon = randomKiller.Addons[randomAddons[1]];
+
+    function sanitizeAddonName(name) {
+        return name.replace(/[^a-zA-Z0-9]/g, "");
+    }
+
+    let firstAddonSanitized = sanitizeAddonName(firstAddon);
+    let secondAddonSanitized = sanitizeAddonName(secondAddon);
+
+    let firstAddonLogo = document.getElementById("addon1");
+    let secondAddonLogo = document.getElementById("addon2");
+
+    firstAddonLogo.innerHTML = `<img class="addon-photo" src="images/Addons/${firstAddonSanitized}.webp" alt="${firstAddon} logo"` +
+        `<span class="addon-name">${firstAddon}</span>`;
+
+    secondAddonLogo.innerHTML = `<img class="addon-photo" src="images/Addons/${secondAddonSanitized}.webp" alt="${secondAddon} logo"` +
+        `<span class="addon-name">${secondAddon}</span>`;
+}
+
+function pickRandomPerks() {
+    return ReadJsonFile().then(killerList => {
+        let randomPerks = [];
+    });
+
+
 }
