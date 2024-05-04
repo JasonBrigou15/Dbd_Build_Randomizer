@@ -1,13 +1,13 @@
+let chosenKiller;
+
 document.getElementById("killer-randomize-btn").onclick = function () {
     pickRandomKiller().then(randomKiller => {
-        pickRandomKillerAddons(randomKiller);
+        chosenKiller = randomKiller;
     });
 }
 
 document.getElementById("addon-randomize-btn").onclick = function () {
-    pickRandomKiller().then(randomKiller => {
-        pickRandomKillerAddons(randomKiller);
-    });
+        pickRandomKillerAddons(chosenKiller);
 }
 
 document.getElementById("perks-randomize-btn").onclick = function () {
@@ -34,8 +34,6 @@ function pickRandomKiller() {
         let randomIndex = Math.floor(Math.random() * (killerList.length - 1))
         let randomKiller = killerList[randomIndex];
 
-        console.log(randomKiller);
-
         const killerPhoto = document.getElementById("killer-photo-block");
         const killerPowerPhoto = document.getElementById("power-image-cell");
 
@@ -57,18 +55,18 @@ function pickRandomKiller() {
     });
 }
 
-function pickRandomKillerAddons(randomKiller) {
+function pickRandomKillerAddons(chosenKiller) {
     let randomAddons = [];
 
     while (randomAddons.length < 2) {
-        let randomIndex = Math.floor(Math.random() * randomKiller.Addons.length);
+        let randomIndex = Math.floor(Math.random() * chosenKiller.Addons.length);
         if (!randomAddons.includes(randomIndex)) {
             randomAddons.push(randomIndex);
         }
     }
 
-    let firstAddon = randomKiller.Addons[randomAddons[0]];
-    let secondAddon = randomKiller.Addons[randomAddons[1]];
+    let firstAddon = chosenKiller.Addons[randomAddons[0]];
+    let secondAddon = chosenKiller.Addons[randomAddons[1]];
 
     function sanitizeAddonName(name) {
         return name.replace(/[^a-zA-Z0-9]/g, "");
